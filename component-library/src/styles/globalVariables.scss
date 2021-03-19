@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;900&display=swap');
 
 // TYPOGRAPHY
 $font-family: 'Nunito Sans', sans-serif;
+$font-weight-extralight: 200;
 $font-weight-light: 300;
 $font-weight-regular: 400;
 $font-weight-semibold: 600;
@@ -44,6 +45,10 @@ $color-dark-hover: #261A1A;
 $color-dark-disabled: #A4A4A4;
 $color-dark-highlight: #F2F2F2;
 
+$color-coolgray: #B1B9BE;
+$color-coolgray-dark: #384346;
+$color-coolgray-disabled: #EAEAEA;
+
 // TEXT VARIANTS
 $text-white: #fff;
 $text-black: #000;
@@ -52,15 +57,22 @@ $text-secondary: $color-secondary;
 $text-muted: #B7B4C9;
 
 // BUTTON SPECS
-$btn-border-radius: 3px;
 $btn-box-shadow: 0px 3px 5px #7c7c7c54;
 $btn-box-shadow-hover: 0px 3px 3px 0px #7c7c7c54;
 $btn-padding: .75rem 1.25rem;
 $btn-margin: .75rem;
-$btn-border: solid 1px;
-$btn-rounded: 50px;
+$btn-padding-small: .25rem .75rem;
+$btn-padding-large: 1.25rem 1.75rem;
 
 // TRANSFORMATIONS & TRANSITIONS
 $ease-in-quick: all ease-in .05s;
 $transform-raise: translateY(1px);
 
+// INPUT SPECS
+$input-padding: .75rem;
+$input-box-shadow: 0px 3px 5px #7c7c7c54;
+
+// BORDER SPECS
+$border-rounded: 50px;
+$border-regular: 3px;
+$border-stroke: solid 1px;

@@ -1,0 +1,87 @@
+@import './globalVariables.scss';
+
+.input-container{
+    font-family: $font-family;
+    .label-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        max-width: 275px;
+        .error-message{
+            font-size: x-small;
+            text-align: right;
+            color: $color-danger;
+        }
+        .success-message{
+            font-size: x-small;
+            text-align: right;
+            color: $color-success;
+        }
+    }
+    &.with-label{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        color: $color-coolgray-dark;
+        font-size: 12px;
+        padding-bottom: .5rem;
+        &.error{
+            color: $color-danger;
+        }
+        &.success{
+            color: $color-success;
+        }
+    }
+    input[type=text]{
+        font-family: $font-family;
+        padding: $input-padding;
+        max-width: 250px;
+        color: $color-coolgray;
+        font-weight: $font-weight-light;
+        border: $border-stroke $color-coolgray;
+        border-radius: $border-regular;
+        &::placeholder{
+            color: $color-coolgray;
+            font-weight: $font-weight-light;
+        }
+        &.round{
+            border-radius: $border-rounded;
+        }
+        &.filled{
+            border: $border-stroke $color-coolgray-dark;
+            color: $color-coolgray-dark;
+        }
+        &:focus{
+            box-shadow: $input-box-shadow;
+            border: $border-stroke $color-coolgray-dark;
+            color: $color-coolgray-dark;
+            outline: none;
+            &::placeholder{
+                color: $color-coolgray-dark;
+            }
+        }
+        &:disabled{
+            background-color: $color-coolgray-disabled;
+            cursor: not-allowed;
+        }
+        &.error{
+            color: $color-danger;
+            border: $border-stroke $color-danger;
+            box-shadow: $input-box-shadow;
+            &::placeholder{
+                color: $color-danger;
+            }
+        }
+        &.success{
+            color: $color-success;
+            border: $border-stroke $color-success;
+            box-shadow: none;
+            &::placeholder{
+                color: $color-success;
+            }
+        }
+    }
+}
+
+

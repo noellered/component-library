@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import Button from '../components/Button';
 
 export default {
-  title: 'Button',
+  title: 'Components/Forms/Buttons',
   component: Button,
   argTypes: {
     backgroundColor: { control: 'color' },
@@ -23,7 +23,8 @@ Primary.args = {
   isFlat: false,
   isOutline: false,
   isRound: false,
-  disabled: false
+  disabled: false,
+  size: 'regular'
 };
 
 export const Secondary = Template.bind({});
@@ -33,7 +34,8 @@ Secondary.args = {
   isFlat: false,
   isOutline: false,
   isRound: false,
-  disabled: false
+  disabled: false,
+  size: 'regular'
 };
 
 export const Danger = Template.bind({});
@@ -43,7 +45,8 @@ Danger.args = {
   isFlat: false,
   isOutline: false,
   isRound: false,
-  disabled: false
+  disabled: false,
+  size: 'regular'
 };
 
 export const Success = Template.bind({});
@@ -53,7 +56,8 @@ Success.args = {
   isFlat: false,
   isOutline: false,
   isRound: false,
-  disabled: false
+  disabled: false,
+  size: 'regular'
 };
 
 export const Info = Template.bind({});
@@ -63,7 +67,8 @@ Info.args = {
   isFlat: false,
   isOutline: false,
   isRound: false,
-  disabled: false
+  disabled: false,
+  size: 'regular'
 };
 
 export const Light = Template.bind({});
@@ -73,7 +78,8 @@ Light.args = {
   isFlat: false,
   isOutline: false,
   isRound: false,
-  disabled: false
+  disabled: false,
+  size: 'regular'
 };
 
 export const Dark = Template.bind({});
@@ -83,7 +89,8 @@ Dark.args = {
   isFlat: false,
   isOutline: false,
   isRound: false,
-  disabled: false
+  disabled: false,
+  size: 'regular'
 };
 
 export const Flat = Template.bind({});
@@ -92,7 +99,8 @@ Flat.args = {
   label: 'Button',
   isFlat: true,
   isOutline: false,
-  isRound: false
+  isRound: false,
+  size: 'regular'
 };
 
 export const Outline = Template.bind({});
@@ -101,7 +109,8 @@ Outline.args = {
   label: 'Button',
   isFlat: false,
   isOutline: true,
-  disabled: false
+  disabled: false,
+  size: 'regular'
 };
 
 export const Round = Template.bind({});
@@ -111,5 +120,6 @@ Round.args = {
   isFlat: false,
   isOutline: true,
   isRound: true,
-  disabled: false
+  disabled: false,
+  size: 'regular'
 };
