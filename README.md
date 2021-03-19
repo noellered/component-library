@@ -5,8 +5,10 @@ The goal of this project is to create a robust React component library based off
 This project uses [Storybook](https://storybook.js.org/docs/react/get-started/introduction) and [React](https://reactjs.org/)
 
 ## Contributing 🙌
+** **If you'd like to contribute to the design, you will need to ask me for editing permission for the design file** **
+
 If you'd like to contribute to this project, please check out open [issues & feature requests](https://github.com/noellered/component-library/issues).
-Comment on the issue you're 
+Comment on the issue asking to work on it.
 1. Fork the repo and `cd` into the project folder
 2. `yarn install` to install the project dependencies
 3. `yarn storybook` to start the project on your localhost in the Storybook GUI
