@@ -1,0 +1,204 @@
+@import './globalVariables.scss';
+
+.btn{
+  padding: $btn-padding;
+  font-family: $font-family;
+  font-weight: $font-weight-semibold;
+  margin: $btn-margin;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: $btn-border-radius;
+  box-shadow: $btn-box-shadow;
+  transition: $ease-in-quick;
+  &.rounded{
+      border-radius: $btn-rounded;
+  }
+  &.flat{
+    box-shadow: none;
+    &:hover{
+        box-shadow: none;
+        transform: none;
+    }
+  }
+  &:hover{
+    cursor: pointer;
+    transform: $transform-raise;
+    box-shadow: $btn-box-shadow-hover;
+  }
+  &:disabled{
+      transform: none;
+      cursor: not-allowed;
+      box-shadow: none;
+  }
+//   BEGIN COLOR STYLES   //
+  &.btn-primary{
+    background-color: $color-primary;
+    &.outline{
+        background-color: white;
+        border: $btn-border $color-primary;
+        color: $color-primary;
+        &:hover{
+            background-color: $color-primary;
+            color: white;
+        }
+        &:disabled{
+            border: $btn-border $color-primary-disabled;
+            transform: none;
+            color: $color-primary-disabled;
+            background-color: white;
+        }
+    }
+    &:hover{
+        background-color: $color-primary-hover;
+    }
+    &:disabled{
+        background-color: $color-primary-disabled;
+    }
+  } 
+  &.btn-secondary{
+    background-color: $color-secondary;
+    &.outline{
+        background-color: white;
+        border: $btn-border $color-secondary;
+        color: $color-secondary;
+        &:hover{
+            background-color: $color-secondary;
+            color: white;
+        }
+        &:disabled{
+            border: $btn-border $color-secondary-disabled;
+            transform: none;
+            color: $color-secondary-disabled;
+            background-color: white;
+        }
+    }
+    &:hover{
+        background-color: $color-secondary-hover;
+    }    
+    &:disabled{
+        background-color: $color-secondary-disabled;
+    }
+  }
+  &.btn-danger{
+    background-color: $color-danger;
+    &.outline{
+        background-color: white;
+        border: $btn-border $color-danger;
+        color: $color-danger;
+        &:hover{
+            background-color: $color-danger;
+            color: white;
+        }
+        &:disabled{
+            border: $btn-border $color-danger-disabled;
+            transform: none;
+            color: $color-danger-disabled;
+            background-color: white;
+        }
+    }
+    &:hover{
+        background-color: $color-danger-hover;
+    }
+    &:disabled{
+        background-color: $color-danger-disabled;
+    }
+  }
+  &.btn-success{
+    background-color: $color-success;
+    &.outline{
+        background-color: white;
+        border: $btn-border $color-success;
+        color: $color-success;
+        &:hover{
+            background-color: $color-success;
+            color: white;
+        }
+        &:disabled{
+            border: $btn-border $color-success-disabled;
+            transform: none;
+            color: $color-success-disabled;
+            background-color: white;
+        }
+    }
+    &:hover{
+        background-color: $color-success-hover;
+    }
+    &:disabled{
+        background-color: $color-success-disabled;
+    }
+  }
+  &.btn-info{
+    background-color: $color-info;
+    &.outline{
+        background-color: white;
+        border: $btn-border $color-info;
+        color: $color-info;
+        &:hover{
+            background-color: $color-info;
+            color: white;
+        }
+        &:disabled{
+            border: $btn-border $color-info-disabled;
+            transform: none;
+            color: $color-info-disabled;
+            background-color: white;
+        }
+    }
+    &:hover{
+        background-color: $color-info-hover;
+    }
+    &:disabled{
+        background-color: $color-info-disabled;
+    }
+  }
+  &.btn-light{
+    background-color: $color-light;
+    color: $text-standard;
+    &.outline{
+        background-color: white;
+        border: $btn-border $color-light;
+        color: $text-secondary;
+        &:hover{
+            background-color: $color-light;
+        }
+        &:disabled{
+            border: $btn-border $color-light-disabled;
+            transform: none;
+            color: $color-light-disabled;
+            background-color: white;
+        }
+    }
+    &:hover{
+        background-color: $color-light-hover;
+    }
+    &:disabled{
+        background-color: $color-light-disabled;
+        color: $text-muted;
+    }
+  }
+  &.btn-dark{
+    background-color: $color-dark;
+    &.outline{
+        background-color: white;
+        border: $btn-border $color-dark;
+        color: $color-dark;
+        &:hover{
+            background-color: $color-dark;
+            color: white;
+        }
+        &:disabled{
+            border: $btn-border $color-dark-disabled;
+            transform: none;
+            color: $color-dark-disabled;
+            background-color: white;
+        }
+    }
+    &:hover{
+      background-color: $color-dark-hover;
+    }
+    &:disabled{
+        background-color: $color-dark-disabled;
+    }
+  }
+}

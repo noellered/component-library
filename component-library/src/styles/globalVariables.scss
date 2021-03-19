@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap');
+
+// TYPOGRAPHY
+$font-family: 'Nunito Sans', sans-serif;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// COLOR VARIANTS
+$color-primary: #4E37D9;
+$color-primary-hover: #240DAF;
+$color-primary-disabled: #A098D1;
+$color-primary-highlight: #E9E7F6;
+
+$color-secondary: #5E597C;
+$color-secondary-hover: #353247;
+$color-secondary-disabled: #918DA7;
+$color-secondary-highlight: #E8E7EE;
+
+$color-danger: #D93737;
+$color-danger-hover: #A61010;
+$color-danger-disabled: #E39A9A;
+$color-danger-highlight: #F5E0E0;
+
+$color-success: #26C365;
+$color-success-hover: #138A43;
+$color-success-disabled: #9BD2B1;
+$color-success-highlight: #E3F2E9;
+
+$color-info: #30B8CB;
+$color-info-hover: #0F8899;
+$color-info-disabled: #97CDD4;
+$color-info-highlight: #DFF0F2;
+
+$color-light: #FAFAFA;
+$color-light-hover: #EAEAEA;
+$color-light-disabled: #FAFAFA;
+$color-light-highlight: #F2F2F2;
+
+$color-dark: #595959;
+$color-dark-hover: #261A1A;
+$color-dark-disabled: #A4A4A4;
+$color-dark-highlight: #F2F2F2;
+
+// TEXT VARIANTS
+$text-white: #fff;
+$text-black: #000;
+$text-standard: $color-secondary-hover;
+$text-secondary: $color-secondary;
+$text-muted: #B7B4C9;
+
+// BUTTON SPECS
+$btn-border-radius: 3px;
+$btn-box-shadow: 0px 3px 5px #7c7c7c54;
+$btn-box-shadow-hover: 0px 3px 3px 0px #7c7c7c54;
+$btn-padding: .75rem 1.25rem;
+$btn-margin: .75rem;
+$btn-border: solid 1px;
+$btn-rounded: 50px;
+
+// TRANSFORMATIONS & TRANSITIONS
+$ease-in-quick: all ease-in .05s;
+$transform-raise: translateY(1px);
+
