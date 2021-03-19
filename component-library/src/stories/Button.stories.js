@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import Button from '../components/Button';
@@ -21,7 +22,7 @@ Primary.args = {
   label: 'Button',
   isFlat: false,
   isOutline: false,
-  isRounded: false,
+  isRound: false,
   disabled: false
 };
 
@@ -31,7 +32,7 @@ Secondary.args = {
   label: 'Button',
   isFlat: false,
   isOutline: false,
-  isRounded: false,
+  isRound: false,
   disabled: false
 };
 
@@ -41,7 +42,7 @@ Danger.args = {
   label: 'Button',
   isFlat: false,
   isOutline: false,
-  isRounded: false,
+  isRound: false,
   disabled: false
 };
 
@@ -51,7 +52,7 @@ Success.args = {
   label: 'Button',
   isFlat: false,
   isOutline: false,
-  isRounded: false,
+  isRound: false,
   disabled: false
 };
 
@@ -61,7 +62,7 @@ Info.args = {
   label: 'Button',
   isFlat: false,
   isOutline: false,
-  isRounded: false,
+  isRound: false,
   disabled: false
 };
 
@@ -71,7 +72,7 @@ Light.args = {
   label: 'Button',
   isFlat: false,
   isOutline: false,
-  isRounded: false,
+  isRound: false,
   disabled: false
 };
 
@@ -81,7 +82,7 @@ Dark.args = {
   label: 'Button',
   isFlat: false,
   isOutline: false,
-  isRounded: false,
+  isRound: false,
   disabled: false
 };
 
@@ -91,7 +92,7 @@ Flat.args = {
   label: 'Button',
   isFlat: true,
   isOutline: false,
-  isRounded: false
+  isRound: false
 };
 
 export const Outline = Template.bind({});
@@ -103,12 +104,12 @@ Outline.args = {
   disabled: false
 };
 
-export const Rounded = Template.bind({});
-Rounded.args = {
+export const Round = Template.bind({});
+Round.args = {
   variant: 'info',
   label: 'Button',
   isFlat: false,
   isOutline: true,
-  isRounded: true,
+  isRound: true,
   disabled: false
 };
